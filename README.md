@@ -1,2 +1,151 @@
-# taxi-caluco
-taxi 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <!--header section start -->
+    <div id="index.html" class="header_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+                </div>
+                <div class="col-sm-6 col-lg-9">
+                    <div class="menu_text">
+                        <ul>
+                        <li><a href="index.html">INICIO</a></li>                                                    
+                        <li><a href="#about">CONSULTAR</a></li>
+                            <li><a href="#taxis">TAXI</a></li>
+                            <li><a href="#booking">RESERVAR</a></li>
+                          
+                            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">INICIO</a>
+                    <a href="#about">CONSULTAR</a>
+                    <a href="#taxis">TAXI</a>
+                  <a href="#booking">RESERVAR</a>
+                  <a href="#contact">CONTACTAR</a>
+                </div>
+                </div>
+          <span  style="font-size:33px;cursor:pointer; color: #ffffff;" onclick="openNav()"><img src="images/buscar.png" class="toggle_menu"></span>
+                </div>  
+                </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- header section end -->
+    <!-- banner section start -->
+    <div class="banner_section">
+      <div class="container-fluid">
+        <div id="main_slider" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+          <div class="col-md-6">
+            <div class="book_now">
+                <h1 class="book_text">NUMERO TEL:</h1>
+                <h1 class="call_text">(+503) 7865-2329</h1>
+            </div>
+            <div class="image_1"><img src="images/QUTE3.jpeg"></div>
+          </div>
+          <div class="col-md-6">
+              <h1 class="booking_text">RESERVA TU QUTE</h1>
+            <div class="contact_bg">
+            <div class="input_main">
+              <div class="container">
+                  <h2 class="request_text">VIVE UNA GRAN EXPERIENCIA</h2>
+                <form action="/action_page.php">
+                <div class="form-group">
+                  <input type="text" class="email-bt" placeholder="PICKUP" name="Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="email-bt" placeholder="QUTE" name="Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="email-bt" placeholder="OTROS" name="Email">
+                </div>
+                  </form>
+                  </div> 
+                  </div>
+    <div class="send_bt"><a href="#">BUSCAR</a></div>
+          </div>
+          </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+          <div class="col-md-6">
+            <div class="book_now">
+                <h1 class="book_text">TAXI CALUCO</h1>
+              <h1 class="call_text">EDUARDO FLORES</h1>
+            </div>
+          <div class="image_1"><img src="images/QUTE.jpeg"></div>
+          </div>
+          <div class="col-md-6">
+              <h1 class="booking_text">RESERVA TU QUTE</h1>
+            <div class="contact_bg">
+            <div class="input_main">
+              <div class="container">
+                  <h2 class="request_text">VIVE LA MEJOR EXPERIENCIA</h2>
+                <form action="/action_page.php">
+                <div class="form-group">
+                  <input type="text" class="email-bt" placeholder="PICKUP" name="Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="email-bt" placeholder="QUTE" name="Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="email-bt" placeholder="OTRO" name="Email">
+                </div>
+                  </form>
+                  </div> 
+                  </div>
+    <div class="send_bt"><a href="#">BUSCAR</a></div>
+          </div>
+          </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+          <div class="col-md-6">
+            <div class="book_now">
+                <h1 class="book_text">TAXI CALUCO</h1>
+                <h1 class="call_text">EDUARDO FLORS</h1>
+            </div>
+          <div class="image_1"><img src="images/QUTE1.jpeg"></div>
+          </div>
+          <div class="col-md-6">
+              <h1 class="booking_text">RESERVA TU QUTE</h1>
+            <div class="contact_bg">
+            <div class="input_main">
+              <div class="container">
+                  <h2 class="request_text">VIAJA RAPIDO Y FELIZ</h2>
+                <form action="/action_page.php">
+                <div class="form-group">
+                  <input type="text" class="email-bt" placeholder="PICKUP" name="Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="email-bt" placeholder="QUTE" name="Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="email-bt" placeholder="OTRO" name="Email">
+                </div>
+                  </form>
+                  </div> 
+                  </div>
+    <div class="send_bt"><a href="#">BUSCAR</a></div>
+          </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+
+ 
+</body>
+</html>
